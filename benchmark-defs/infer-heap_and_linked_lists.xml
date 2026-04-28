@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 2.3//EN" "https://www.sosy-lab.org/benchexec/benchmark-2.3.dtd">
+<benchmark tool="memsafety_analysers.infer" displayName="pulse" timelimit="15 min" hardtimelimit="16 min" memlimit="4 GB" cpuCores="1">
+
+  <require cpuModel="Intel Xeon E3-1230 v5 @ 3.40 GHz" />
+  
+  <rundefinition name="valid-memsafety">
+    <tasks name="valid-memsafety">
+      <includesfile>../benchmarks/sv-benchmarks/c/Heap.set</includesfile>
+      <includesfile>../benchmarks/sv-benchmarks/c/LinkedLists.set</includesfile>
+      <propertyfile>../benchmarks/sv-benchmarks/c/properties/valid-memsafety.prp</propertyfile>
+    </tasks>
+
+    </rundefinition>
+
+</benchmark>
