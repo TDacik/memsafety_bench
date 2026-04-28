@@ -14,7 +14,7 @@ class Tool(BaseTool2):
         return self._version_from_tool(executable)
 
     def executable(self, tool_locator):
-        return tool_locator.find_executable("run-infer.sh")
+        return tool_locator.find_executable("run_infer.sh")
 
     def cmdline(self, executable, options, task, rlimits):
         machdep = get_data_model_from_task(task, {ILP32: "-m32", LP64: "-m64"})
