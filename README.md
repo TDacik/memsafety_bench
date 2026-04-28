@@ -5,7 +5,7 @@
 ```bash
 ./scripts/update_benchmarks.sh
 ```
-2. Install [infer](https://github.com/facebook/infer). If it is not available in $PATH, sets an absolute path to it in `config.env`.
+2. Install [infer](https://github.com/facebook/infer). If it is not available in $PATH, set an absolute path to it in `config.env`.
 2. Install [benchexec](https://github.com/sosy-lab/benchexec/blob/main/doc/INSTALL.md#debianubuntu).
 3. Install Infer's tool-info modules for benchexec:
 ```sh
